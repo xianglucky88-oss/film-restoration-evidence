@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "id": "scan-coverage-01",
+      "source_origin": 100,
+      "frame_count": 4,
+      "direction": "reverse",
+      "captured_indices": [
+        3,
+        0,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "fact_id": "cut-order-01",
+    "total_frames": 9,
+    "shots": [
+      {
+        "shot": "A",
+        "occurrence": 1,
+        "start": 0,
+        "end": 4
+      },
+      {
+        "shot": "B",
+        "occurrence": 1,
+        "start": 4,
+        "end": 6
+      },
+      {
+        "shot": "A",
+        "occurrence": 2,
+        "start": 6,
+        "end": 9
+      }
+    ]
+  }
+]

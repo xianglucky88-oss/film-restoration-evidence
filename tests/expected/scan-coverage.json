@@ -1,0 +1,13 @@
+[
+  {
+    "fact_id": "scan-coverage-01",
+    "source_frames": [
+      103,
+      102,
+      100
+    ],
+    "missing_source_frames": [
+      101
+    ]
+  }
+]

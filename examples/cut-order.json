@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "cut-order-01",
+      "shots": [
+        {
+          "shot": "A",
+          "frames": 4
+        },
+        {
+          "shot": "B",
+          "frames": 2
+        },
+        {
+          "shot": "A",
+          "frames": 3
+        }
+      ]
+    }
+  ]
+}

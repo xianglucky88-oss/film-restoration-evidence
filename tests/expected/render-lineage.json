@@ -1,0 +1,22 @@
+[
+  {
+    "fact_id": "render-lineage-01",
+    "materials": [
+      {
+        "span": "opener",
+        "ref": "scan-A",
+        "kind": "scan"
+      },
+      {
+        "span": "join",
+        "ref": "paint-2",
+        "kind": "paint"
+      },
+      {
+        "span": "tail",
+        "ref": "lost-id",
+        "kind": "unresolved"
+      }
+    ]
+  }
+]

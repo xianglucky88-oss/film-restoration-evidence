@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "id": "damage-review-01",
+      "marks": [
+        {
+          "frame": 19,
+          "review_confirmed": false
+        },
+        {
+          "frame": 20,
+          "review_confirmed": false
+        },
+        {
+          "frame": 19,
+          "review_confirmed": true
+        }
+      ]
+    }
+  ]
+}
