@@ -3,5 +3,174 @@
     "fact_id": "crop-review-01",
     "lost_picture_px": 120,
     "retained_border_px": 196
+  },
+  {
+    "fact_id": "crop-review-02",
+    "device": {
+      "viewport": [
+        0,
+        0,
+        2048,
+        1556
+      ],
+      "aspect": 1.333333,
+      "min_width": 1280,
+      "min_height": 960
+    },
+    "frame": [
+      36,
+      42,
+      1980,
+      1500
+    ],
+    "frame_size": {
+      "width": 1944,
+      "height": 1458
+    },
+    "retained_picture_px": 678844800,
+    "viewed_frames": 240,
+    "unviewed_frames": 0,
+    "segments": [
+      {
+        "start": 0,
+        "end": 96,
+        "status": "decided",
+        "frames": 96,
+        "retained_picture_px": 271537920
+      },
+      {
+        "start": 96,
+        "end": 168,
+        "status": "pending_review",
+        "frames": 72,
+        "retained_picture_px": 203653440
+      },
+      {
+        "start": 168,
+        "end": 240,
+        "status": "decided",
+        "frames": 72,
+        "retained_picture_px": 203653440
+      }
+    ],
+    "unviewed_ranges": [],
+    "pending_review": [
+      {
+        "start": 96,
+        "end": 168,
+        "suspected": [
+          [
+            0,
+            0,
+            36,
+            1556
+          ],
+          [
+            1980,
+            60,
+            2040,
+            1500
+          ]
+        ],
+        "inside_frame": []
+      }
+    ],
+    "conflicts": [],
+    "finalized": true
+  },
+  {
+    "fact_id": "crop-review-03",
+    "device": {
+      "viewport": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "aspect": 1,
+      "min_width": 200,
+      "min_height": 200
+    },
+    "frame": null,
+    "frame_size": null,
+    "retained_picture_px": 0,
+    "viewed_frames": 600,
+    "unviewed_frames": 0,
+    "segments": [
+      {
+        "start": 0,
+        "end": 600,
+        "status": "conflict",
+        "frames": 600,
+        "retained_picture_px": 0
+      }
+    ],
+    "unviewed_ranges": [],
+    "pending_review": [],
+    "conflicts": [
+      {
+        "start": 0,
+        "end": 600,
+        "reason": "keep_damage",
+        "keep": [
+          200,
+          780,
+          760,
+          900
+        ],
+        "keep_frames": [
+          [
+            0,
+            600
+          ]
+        ],
+        "damage": [
+          [
+            420,
+            760,
+            470,
+            910
+          ]
+        ],
+        "damage_frames": [
+          [
+            200,
+            600
+          ]
+        ]
+      },
+      {
+        "start": 0,
+        "end": 600,
+        "reason": "keep_damage",
+        "keep": [
+          200,
+          780,
+          760,
+          900
+        ],
+        "keep_frames": [
+          [
+            0,
+            600
+          ]
+        ],
+        "damage": [
+          [
+            420,
+            760,
+            470,
+            910
+          ]
+        ],
+        "damage_frames": [
+          [
+            200,
+            600
+          ]
+        ]
+      }
+    ],
+    "finalized": false
   }
 ]
