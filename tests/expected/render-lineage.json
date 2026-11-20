@@ -3,19 +3,659 @@
     "fact_id": "render-lineage-01",
     "materials": [
       {
-        "span": "opener",
+        "kind": "scan",
         "ref": "scan-A",
-        "kind": "scan"
+        "span": "opener"
       },
       {
-        "span": "join",
+        "kind": "paint",
         "ref": "paint-2",
-        "kind": "paint"
+        "span": "join"
       },
       {
-        "span": "tail",
+        "kind": "unresolved",
         "ref": "lost-id",
-        "kind": "unresolved"
+        "span": "tail"
+      }
+    ]
+  },
+  {
+    "comparison": {
+      "position_only": [
+        {
+          "new": {
+            "occurrence": 1,
+            "position": {
+              "end": 3,
+              "start": 0
+            },
+            "shot": "A",
+            "sources": [
+              {
+                "batch": "B-2026-11-01",
+                "kind": "scan",
+                "material_ref": "mat-r1",
+                "reel": "R1",
+                "scan_ref": "scan-r1-fwd",
+                "scan_status": "captured",
+                "source_frame": 100
+              },
+              {
+                "batch": "B-2026-11-01",
+                "kind": "scan",
+                "material_ref": "mat-r1",
+                "reel": "R1",
+                "scan_ref": "scan-r1-fwd",
+                "scan_status": "captured",
+                "source_frame": 101
+              },
+              {
+                "batch": "B-2026-11-01",
+                "kind": "scan",
+                "material_ref": "mat-r1",
+                "reel": "R1",
+                "scan_ref": "scan-r1-fwd",
+                "scan_status": "captured",
+                "source_frame": 102
+              }
+            ],
+            "version": "screening-cut"
+          },
+          "old": {
+            "occurrence": 1,
+            "position": {
+              "end": 4,
+              "start": 0
+            },
+            "shot": "A",
+            "sources": [
+              {
+                "batch": "B-2026-11-01",
+                "kind": "scan",
+                "material_ref": "mat-r1",
+                "reel": "R1",
+                "scan_ref": "scan-r1-fwd",
+                "scan_status": "captured",
+                "source_frame": 100
+              },
+              {
+                "batch": "B-2026-11-01",
+                "kind": "scan",
+                "material_ref": "mat-r1",
+                "reel": "R1",
+                "scan_ref": "scan-r1-fwd",
+                "scan_status": "captured",
+                "source_frame": 101
+              },
+              {
+                "batch": "B-2026-11-01",
+                "kind": "scan",
+                "material_ref": "mat-r1",
+                "reel": "R1",
+                "scan_ref": "scan-r1-fwd",
+                "scan_status": "captured",
+                "source_frame": 102
+              },
+              {
+                "batch": "B-2026-11-01",
+                "kind": "scan",
+                "material_ref": "mat-r1",
+                "reel": "R1",
+                "scan_ref": "scan-r1-fwd",
+                "scan_status": "captured",
+                "source_frame": 103
+              }
+            ],
+            "version": "archive-cut"
+          }
+        },
+        {
+          "new": {
+            "occurrence": 1,
+            "position": {
+              "end": 5,
+              "start": 3
+            },
+            "shot": "B",
+            "sources": [
+              {
+                "batch": "B-2026-11-02",
+                "kind": "scan",
+                "material_ref": "mat-r2",
+                "reel": "R2",
+                "scan_ref": "scan-r2-fwd",
+                "scan_status": "captured",
+                "source_frame": 200
+              },
+              {
+                "batch": "B-2026-11-02",
+                "kind": "scan",
+                "material_ref": "mat-r2",
+                "reel": "R2",
+                "scan_ref": "scan-r2-fwd",
+                "scan_status": "captured",
+                "source_frame": 201
+              }
+            ],
+            "version": "screening-cut"
+          },
+          "old": {
+            "occurrence": 1,
+            "position": {
+              "end": 6,
+              "start": 4
+            },
+            "shot": "B",
+            "sources": [
+              {
+                "batch": "B-2026-11-02",
+                "kind": "scan",
+                "material_ref": "mat-r2",
+                "reel": "R2",
+                "scan_ref": "scan-r2-fwd",
+                "scan_status": "captured",
+                "source_frame": 200
+              },
+              {
+                "batch": "B-2026-11-02",
+                "kind": "scan",
+                "material_ref": "mat-r2",
+                "reel": "R2",
+                "scan_ref": "scan-r2-fwd",
+                "scan_status": "captured",
+                "source_frame": 201
+              }
+            ],
+            "version": "archive-cut"
+          }
+        },
+        {
+          "new": {
+            "occurrence": 2,
+            "position": {
+              "end": 8,
+              "start": 5
+            },
+            "shot": "A",
+            "sources": [
+              {
+                "kind": "placeholder",
+                "material_ref": "mat-placeholder"
+              },
+              {
+                "batch": "B-2026-11-04",
+                "kind": "scan",
+                "material_ref": "mat-r4",
+                "reel": "R4",
+                "scan_ref": "scan-r4-fwd",
+                "scan_status": "captured",
+                "source_frame": 400
+              },
+              {
+                "batch": "B-2026-11-04",
+                "kind": "scan",
+                "material_ref": "mat-r4",
+                "reel": "R4",
+                "scan_ref": "scan-r4-fwd",
+                "scan_status": "captured",
+                "source_frame": 401
+              }
+            ],
+            "version": "screening-cut"
+          },
+          "old": {
+            "occurrence": 2,
+            "position": {
+              "end": 9,
+              "start": 6
+            },
+            "shot": "A",
+            "sources": [
+              {
+                "kind": "placeholder",
+                "material_ref": "mat-placeholder"
+              },
+              {
+                "batch": "B-2026-11-04",
+                "kind": "scan",
+                "material_ref": "mat-r4",
+                "reel": "R4",
+                "scan_ref": "scan-r4-fwd",
+                "scan_status": "captured",
+                "source_frame": 400
+              },
+              {
+                "batch": "B-2026-11-04",
+                "kind": "scan",
+                "material_ref": "mat-r4",
+                "reel": "R4",
+                "scan_ref": "scan-r4-fwd",
+                "scan_status": "captured",
+                "source_frame": 401
+              }
+            ],
+            "version": "archive-cut"
+          }
+        }
+      ],
+      "source_changed": [
+        {
+          "new": {
+            "occurrence": 1,
+            "position": {
+              "end": 12,
+              "start": 8
+            },
+            "shot": "C",
+            "sources": [
+              {
+                "batch": "B-2026-11-03",
+                "frozen_frame": 302,
+                "frozen_frame_scan_status": "captured",
+                "kind": "freeze",
+                "material_ref": "mat-freeze-r3",
+                "reel": "R3"
+              },
+              {
+                "base_frame": 302,
+                "base_frame_scan_status": "captured",
+                "base_frame_verified": false,
+                "base_scan_ref": "scan-r3-rev",
+                "kind": "paint",
+                "material_ref": "mat-paint-tail"
+              }
+            ],
+            "version": "screening-cut"
+          },
+          "old": {
+            "occurrence": 1,
+            "position": {
+              "end": 12,
+              "start": 9
+            },
+            "shot": "C",
+            "sources": [
+              {
+                "batch": "B-2026-11-03",
+                "kind": "scan",
+                "material_ref": "mat-r3-archive",
+                "reel": "R3",
+                "scan_ref": "scan-r3-rev",
+                "scan_status": "captured",
+                "source_frame": 302
+              },
+              {
+                "batch": "B-2026-11-03",
+                "kind": "scan",
+                "material_ref": "mat-r3-archive",
+                "reel": "R3",
+                "scan_ref": "scan-r3-rev",
+                "scan_status": "missing",
+                "source_frame": 301
+              },
+              {
+                "batch": "B-2026-11-03",
+                "kind": "scan",
+                "material_ref": "mat-r3-archive",
+                "reel": "R3",
+                "scan_ref": "scan-r3-rev",
+                "scan_status": "captured",
+                "source_frame": 300
+              }
+            ],
+            "version": "archive-cut"
+          }
+        }
+      ],
+      "unmatched": [
+        {
+          "occurrence": 1,
+          "position": {
+            "end": 14,
+            "start": 12
+          },
+          "shot": "D",
+          "sources": [
+            {
+              "base_frame": null,
+              "base_frame_verified": false,
+              "base_scan_ref": null,
+              "kind": "paint",
+              "material_ref": "mat-paint-no-base"
+            }
+          ],
+          "version": "screening-cut"
+        }
+      ]
+    },
+    "fact_id": "render-lineage-02",
+    "material_claims": [
+      {
+        "batch": "B-2026-11-03",
+        "frozen_frame": 302,
+        "frozen_frame_scan_status": "captured",
+        "kind": "freeze",
+        "reel": "R3",
+        "ref": "mat-freeze-r3",
+        "scan_ref": "scan-r3-rev"
+      },
+      {
+        "base_frame": null,
+        "base_frame_verified": false,
+        "base_scan_ref": null,
+        "kind": "paint",
+        "ref": "mat-paint-no-base"
+      },
+      {
+        "base_frame": 302,
+        "base_frame_scan_status": "captured",
+        "base_frame_verified": false,
+        "base_scan_ref": "scan-r3-rev",
+        "kind": "paint",
+        "ref": "mat-paint-tail"
+      },
+      {
+        "kind": "placeholder",
+        "ref": "mat-placeholder"
+      },
+      {
+        "batch": "B-2026-11-01",
+        "kind": "scan",
+        "reel": "R1",
+        "ref": "mat-r1",
+        "scan_ref": "scan-r1-fwd"
+      },
+      {
+        "batch": "B-2026-11-02",
+        "kind": "scan",
+        "reel": "R2",
+        "ref": "mat-r2",
+        "scan_ref": "scan-r2-fwd"
+      },
+      {
+        "batch": "B-2026-11-03",
+        "kind": "scan",
+        "reel": "R3",
+        "ref": "mat-r3-archive",
+        "scan_ref": "scan-r3-rev"
+      },
+      {
+        "batch": "B-2026-11-04",
+        "kind": "scan",
+        "reel": "R4",
+        "ref": "mat-r4",
+        "scan_ref": "scan-r4-fwd"
+      }
+    ],
+    "segments": [
+      {
+        "batch": "B-2026-11-01",
+        "end": 4,
+        "material_ref": "mat-r1",
+        "occurrence": 1,
+        "reel": "R1",
+        "scan_ref": "scan-r1-fwd",
+        "shot": "A",
+        "source_frames": [
+          100,
+          101,
+          102,
+          103
+        ],
+        "start": 0,
+        "verdict": "scan_found",
+        "version": "archive-cut"
+      },
+      {
+        "batch": "B-2026-11-02",
+        "end": 6,
+        "material_ref": "mat-r2",
+        "occurrence": 1,
+        "reel": "R2",
+        "scan_ref": "scan-r2-fwd",
+        "shot": "B",
+        "source_frames": [
+          200,
+          201
+        ],
+        "start": 4,
+        "verdict": "scan_found",
+        "version": "archive-cut"
+      },
+      {
+        "end": 7,
+        "material_ref": "mat-placeholder",
+        "occurrence": 2,
+        "shot": "A",
+        "start": 6,
+        "verdict": "placeholder",
+        "version": "archive-cut"
+      },
+      {
+        "batch": "B-2026-11-04",
+        "end": 9,
+        "material_ref": "mat-r4",
+        "occurrence": 2,
+        "reel": "R4",
+        "scan_ref": "scan-r4-fwd",
+        "shot": "A",
+        "source_frames": [
+          400,
+          401
+        ],
+        "start": 7,
+        "verdict": "scan_found",
+        "version": "archive-cut"
+      },
+      {
+        "batch": "B-2026-11-03",
+        "end": 10,
+        "material_ref": "mat-r3-archive",
+        "occurrence": 1,
+        "reel": "R3",
+        "scan_ref": "scan-r3-rev",
+        "shot": "C",
+        "source_frames": [
+          302
+        ],
+        "start": 9,
+        "verdict": "scan_found",
+        "version": "archive-cut"
+      },
+      {
+        "batch": "B-2026-11-03",
+        "end": 11,
+        "material_ref": "mat-r3-archive",
+        "occurrence": 1,
+        "reel": "R3",
+        "scan_ref": "scan-r3-rev",
+        "shot": "C",
+        "source_frames": [
+          301
+        ],
+        "start": 10,
+        "verdict": "scan_missing",
+        "version": "archive-cut"
+      },
+      {
+        "batch": "B-2026-11-03",
+        "end": 12,
+        "material_ref": "mat-r3-archive",
+        "occurrence": 1,
+        "reel": "R3",
+        "scan_ref": "scan-r3-rev",
+        "shot": "C",
+        "source_frames": [
+          300
+        ],
+        "start": 11,
+        "verdict": "scan_found",
+        "version": "archive-cut"
+      },
+      {
+        "batch": "B-2026-11-01",
+        "end": 3,
+        "material_ref": "mat-r1",
+        "occurrence": 1,
+        "reel": "R1",
+        "scan_ref": "scan-r1-fwd",
+        "shot": "A",
+        "source_frames": [
+          100,
+          101,
+          102
+        ],
+        "start": 0,
+        "verdict": "scan_found",
+        "version": "screening-cut"
+      },
+      {
+        "batch": "B-2026-11-02",
+        "end": 5,
+        "material_ref": "mat-r2",
+        "occurrence": 1,
+        "reel": "R2",
+        "scan_ref": "scan-r2-fwd",
+        "shot": "B",
+        "source_frames": [
+          200,
+          201
+        ],
+        "start": 3,
+        "verdict": "scan_found",
+        "version": "screening-cut"
+      },
+      {
+        "end": 6,
+        "material_ref": "mat-placeholder",
+        "occurrence": 2,
+        "shot": "A",
+        "start": 5,
+        "verdict": "placeholder",
+        "version": "screening-cut"
+      },
+      {
+        "batch": "B-2026-11-04",
+        "end": 8,
+        "material_ref": "mat-r4",
+        "occurrence": 2,
+        "reel": "R4",
+        "scan_ref": "scan-r4-fwd",
+        "shot": "A",
+        "source_frames": [
+          400,
+          401
+        ],
+        "start": 6,
+        "verdict": "scan_found",
+        "version": "screening-cut"
+      },
+      {
+        "batch": "B-2026-11-03",
+        "end": 10,
+        "frozen_frame": 302,
+        "frozen_frame_scan_status": "captured",
+        "material_ref": "mat-freeze-r3",
+        "occurrence": 1,
+        "reel": "R3",
+        "shot": "C",
+        "start": 8,
+        "verdict": "freeze_extended",
+        "version": "screening-cut"
+      },
+      {
+        "base_frame": 302,
+        "base_frame_scan_status": "captured",
+        "base_frame_verified": false,
+        "base_scan_ref": "scan-r3-rev",
+        "end": 12,
+        "material_ref": "mat-paint-tail",
+        "occurrence": 1,
+        "shot": "C",
+        "start": 10,
+        "verdict": "paint_delivered",
+        "version": "screening-cut"
+      },
+      {
+        "base_frame": null,
+        "base_frame_scan_status": null,
+        "base_frame_verified": false,
+        "base_scan_ref": null,
+        "end": 14,
+        "material_ref": "mat-paint-no-base",
+        "occurrence": 1,
+        "shot": "D",
+        "start": 12,
+        "verdict": "paint_delivered",
+        "version": "screening-cut"
+      }
+    ],
+    "versions": [
+      {
+        "shots": [
+          {
+            "end": 4,
+            "occurrence": 1,
+            "shot": "A",
+            "start": 0
+          },
+          {
+            "end": 6,
+            "occurrence": 1,
+            "shot": "B",
+            "start": 4
+          },
+          {
+            "end": 9,
+            "occurrence": 2,
+            "shot": "A",
+            "start": 6
+          },
+          {
+            "end": 12,
+            "occurrence": 1,
+            "shot": "C",
+            "start": 9
+          }
+        ],
+        "total_frames": 12,
+        "version": "archive-cut"
+      },
+      {
+        "shots": [
+          {
+            "end": 3,
+            "occurrence": 1,
+            "shot": "A",
+            "start": 0
+          },
+          {
+            "end": 5,
+            "occurrence": 1,
+            "shot": "B",
+            "start": 3
+          },
+          {
+            "end": 8,
+            "occurrence": 2,
+            "shot": "A",
+            "start": 5
+          },
+          {
+            "end": 12,
+            "occurrence": 1,
+            "shot": "C",
+            "start": 8
+          },
+          {
+            "end": 14,
+            "occurrence": 1,
+            "shot": "D",
+            "start": 12
+          }
+        ],
+        "total_frames": 14,
+        "version": "screening-cut"
       }
     ]
   }
